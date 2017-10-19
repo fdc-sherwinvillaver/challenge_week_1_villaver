@@ -1,5 +1,1 @@
-<?php
-	$payload = json_decode($_REQUEST['payload']);
-	echo $payload;
-
-?>
+<?php shell_exec('git pull'); ?>
