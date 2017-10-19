@@ -1,0 +1,70 @@
+/* YOUR CUSTOM STYLES */
+.modal-dialog.modal-notify.modal-success .badge,.modal-dialog.modal-notify.modal-success .modal-header{background-color:#9b59b6;}
+.modal-dialog.modal-notify.modal-success .fa{color:#9b59b6;}
+.modal-dialog.modal-notify.modal-success .btn-primary-modal{background:#f39c12}
+.modal-dialog.modal-notify.modal-success .btn-primary-modal:active,.modal-dialog.modal-notify.modal-success .btn-primary-modal:focus,.modal-dialog.modal-notify.modal-success .btn-primary-modal:hover{background-color:#f1c40f!important}
+.modal-dialog.modal-notify.modal-success .btn-primary-modal.active{background-color:#016d38!important}
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal{border:2px solid #f39c12;color:#f39c12!important}
+.btn-amber.active,.btn-blue-grey.active,.btn-brown.active,.btn-cyan.active,.btn-danger.active,.btn-dark-green.active,.btn-deep-orange.active,.btn-deep-purple.active,.btn-default.active,.btn-elegant.active,.btn-floating.btn-flat.active,.btn-floating:hover,.btn-indigo.active,.btn-info.active,.btn-light-green.active,.btn-lime.active,.btn-mdb.active,.btn-orange.active,.btn-pink.active,.btn-primary.active,.btn-purple.active,.btn-secondary.active,.btn-secondary.dropdown-toggle,.btn-success.active,.btn-unique.active,.btn-warning.active,.btn-yellow.active,.btn.active,.btn:active,.btn:focus,.btn:hover,.card .form-header,.colorful-select .dropdown-content li.active span,.comments-list .badge,.inline-ul-img li img,.md-pills .nav-item .nav-link.active,.media .media-left img,.modal-dialog .modal-content,.modal-dialog.cascading-modal .modal-header,.modal-dialog.modal-notify.modal-danger .btn-primary-modal.active,.modal-dialog.modal-notify.modal-info .btn-primary-modal.active,.modal-dialog.modal-notify.modal-success .btn-primary-modal.active,.modal-dialog.modal-notify.modal-warning .btn-primary-modal.active,.pager li a:hover,.picker--focused .picker__day--selected,.picker__day--selected,.picker__day--selected:hover,.pricing-card .header,.reply-form .badge,.section .view,.section img,.side-modal .modal-dialog,.tooltip .tooltip-inner,.z-depth-1-half,ul.instagram-photos li img{-webkit-box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)}
+.modal-dialog.modal-notify .btn-outline-secondary-modal{background-color:transparent}
+.modal-dialog.modal-notify.modal-info .btn-outline-secondary-modal{border:2px solid #5394ff;color:#5394ff!important}
+.modal-dialog.modal-notify.modal-warning .btn-outline-secondary-modal{border:2px solid #ff8e38;color:#ff8e38!important}
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal{border:2px solid #f39c12;color:#f39c12!important}
+.modal-dialog.modal-notify.modal-danger .btn-outline-secondary-modal{border:2px solid #ff4b4b;color:#ff4b4b!important}
+
+.div-90-center{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.div-80-center{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.div-70-center{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.div-60-center{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.div-50-center{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.div-55-center{
+	width: 55%;
+	margin: 0 auto;
+}
+
+.div-45-center{
+	width: 45%;
+	margin: 0 auto;
+}
+
+.div-40-center{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.div-30-center{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.pad{
+	margin: 5px;
+}
+
+.unpad{
+	padding: 0px;
+}

@@ -1,0 +1,284 @@
+.div-95-center{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.div-90-center{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.div-85-center{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.div-80-center{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.div-75-center{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.div-70-center{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.div-65-center{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.div-60-center{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.div-55-center{
+	width: 55%;
+	margin: 0 auto;
+}
+
+.div-50-center{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.div-45-center{
+	width: 45%;
+	margin: 0 auto;
+}
+
+.div-40-center{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.div-35-center{
+	width: 35%;
+	margin: 0 auto;
+}
+
+.div-11-center{
+	width: 11%;
+	margin: 0 auto;
+}
+
+.img-center{
+	margin: 0 auto;
+	display: block;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.pad{
+	padding: 1.5rem;
+}
+
+.pan{
+	margin: 5px;
+}
+
+.space{
+	margin: 1.5rem;
+}
+
+.dataTables_length {
+    display: none;
+}
+
+tbody {
+    display:block;
+    overflow:auto;
+}
+
+tbody.tbody-sm{
+height:446px;
+}
+
+tbody.tbody-md{
+height:700px;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+thead {
+    width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+.item-details{
+	font-family: 'Segoe UI';
+	font-size: 13.5px;
+	color: gray;
+}
+
+.avatar .rounded-circle{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin: -120px auto 0;
+    overflow: hidden;
+    border: 5px solid #E3F2FD;
+}
+.testimonial-card{
+	height: 200px;
+
+}
+
+.selected option{
+	color: #757575;
+}
+
+.FixedHeightContainer
+{
+  float:right;
+  height: 25rem;
+  width: 100%;
+}
+.Content
+{
+  height:25rem;
+  overflow:auto;
+}
+
+.btn-back{
+	margin-left: .4rem;
+	margin-top: 4rem;
+	margin-bottom: -6.5rem;
+	display: block;
+	text-align: left;
+	border-top-left-radius: 3rem;
+}
+
+.imageBox
+{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border:1px solid #aaa;
+    background: #fff;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    cursor:move;
+    margin-left: 2rem;
+}
+
+.imageBox .thumbBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-sizing: border-box;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.imageBox .spinner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 400px;
+    background: rgba(0,0,0,0.7);
+}
+
+.testimonial {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: -65px auto 0;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+
+.list-menu{
+    width:20rem;
+    position: fixed;
+    margin-left: -5.1rem;
+    height: 100%;
+    margin-top: -0.5rem;
+}
+
+.list-row{
+    margin-left: 16rem;
+}
+#btnsearch{
+    margin-top: -3rem;
+    margin-left: 15rem;
+}
+.contact-card {
+    font-size: .8rem;
+}
+
+.profile .avatar{
+    margin-left: -40rem;
+}
+
+.profile h3{
+    margin-left: 15rem;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+
+}
+
+.profile{
+    margin-top: 5rem;
+}
+
+.not-found{
+    margin: 0 auto;
+    text-align: center;
+    color: #bdc3c7;
+}
+.not-found i{
+    font-size: 20rem;
+}
+.not-found p{
+    font-size: 2rem;
+}
+
+.batch{
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+
+}
+.batch hr{
+    margin-top: 0;
+}
+.batch span{
+    margin-bottom: .2rem;
+}
+
+.ledger{
+    font-size: 0.8rem;
+    text-align: left;
+}
+.ledger th{
+    text-align: center;
+}
+
+body{
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
