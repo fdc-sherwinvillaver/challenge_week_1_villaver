@@ -3,6 +3,6 @@
 		<title>Test</title>
 	</head>
 	<body>
-		Are you sure?
+		Si lem kay di ko sure...
 	</body>
 </html>
