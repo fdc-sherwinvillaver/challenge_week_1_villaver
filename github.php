@@ -1,6 +1,7 @@
 <?php
 require_once("config.php");
 $content = file_get_contents("php://input");
+echo $content;
 $json    = json_decode($content, true);
 $file    = fopen(LOGFILE, "a");
 $time    = time();
