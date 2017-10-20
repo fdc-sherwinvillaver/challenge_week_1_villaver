@@ -12,7 +12,11 @@ function autoPull(){
     }
   echo $output;
 }
-  
-  $post = $_POST['REQUEST'];
-  echo $post;
+
+    if($_SERVER['REQUEST_METHOD'] === "POST"){
+        $data = json_decode(file_get_contents('php://input'), true);
+        if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
+            autoPull();
+        }
+    }
 ?>
