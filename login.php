@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <div class="div-90-center">
                     <img src="public/images/logo.png" class="img-center">
-                    <p class="txt-center"><i><i class="fa fa-quote-left" aria-hidden="true"></i> Art of Teaching. Heart for Learning.</i> <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                    <p class="txt-center"><i><i class="fa fa-quote-left" aria-hidden="true"></i> Art of Webhooks. Heart for Learning.</i> <i class="fa fa-quote-right" aria-hidden="true"></i></p>
                         <form method="POST">
                            <div class="md-form">
                                 <input type="text" id="username" name="username" class="form-control" onkeypress="return runScript(event)">
