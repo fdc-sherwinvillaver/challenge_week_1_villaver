@@ -1,5 +1,5 @@
 <?php
-function pullRequest(){
+// function pullRequest(){
     $commands = array(
         'sudo git pull'
     );
@@ -10,12 +10,12 @@ function pullRequest(){
         $output .= htmlentities(trim($tmp)) . "\n";
     }
   echo $output;
-}
+// }
   
-if($_SERVER['REQUEST_METHOD'] === "POST"){
-    $data = json_decode(file_get_contents('php://input'), true);
-    if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
-        pullRequest();
-    }
-}
-?>
+// if($_SERVER['REQUEST_METHOD'] === "POST"){
+//     $data = json_decode(file_get_contents('php://input'), true);
+//     if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
+//         pullRequest();
+//     }
+// }
+// ?>
