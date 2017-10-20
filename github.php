@@ -1,6 +1,8 @@
 <?php
 // function pullRequest(){
     $commands = array(
+        'echo $PWD',
+        'whoami',
         'sudo git pull'
     );
     $output = '';
@@ -12,10 +14,21 @@
   echo $output;
 // }
   
+<<<<<<< HEAD
 // if($_SERVER['REQUEST_METHOD'] === "POST"){
+=======
+// if($_SERVER['REQUEST_METHOD'] === 'POST'){
+>>>>>>> e82d61c4e0a4fbc83dab23fd28adf7d0f1c59900
 //     $data = json_decode(file_get_contents('php://input'), true);
 //     if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
 //         pullRequest();
 //     }
 // }
+<<<<<<< HEAD
 // ?>
+=======
+?><!-- 
+<html>
+    <?php echo $output; ?>
+</html> -->
+>>>>>>> e82d61c4e0a4fbc83dab23fd28adf7d0f1c59900
