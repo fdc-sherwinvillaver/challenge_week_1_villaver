@@ -48,6 +48,5 @@
         </div>
     </main>
 </body>
-    <?php include('partials/scripts.php'); ?>
-    <script type="text/javascript" src="public/js/app/login.js"></script>
-</html>
+  <?php include('partials/scripts.php'); ?>
+  <script type="text/javascript" src="public/js/app/login.js"></script>
