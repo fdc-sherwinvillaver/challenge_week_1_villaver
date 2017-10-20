@@ -1,6 +1,6 @@
 <?php
 
-function autoPull(){
+function pullData(){
     $commands = array(
         'sudo git pull'
     );
@@ -12,11 +12,10 @@ function autoPull(){
     }
   echo $output;
 }
-
-    if($_SERVER['REQUEST_METHOD'] === "POST"){
-        $data = json_decode(file_get_contents('php://input'), true);
-        if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
-            autoPull();
-        }
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $data = json_decode(file_get_contents('php://input'), true);
+    if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK') {
+        pullData();
     }
+}
 ?>
