@@ -1,5 +1,5 @@
 <?php
-// function pullRequest(){
+function pullRequest(){
     $commands = array(
         'echo $PWD',
         'whoami',
@@ -12,15 +12,12 @@
         $output .= htmlentities(trim($tmp)) . "\n";
     }
   echo $output;
-// }
-  
-// if($_SERVER['REQUEST_METHOD'] === 'POST'){
-//     $data = json_decode(file_get_contents('php://input'), true);
-//     if($data['ref'] == 'refs/heads/GITHUB-WEBHOOK'){
-//         pullRequest();
-//     }
-// }
-?><!-- 
-<html>
-    <?php echo $output; ?>
-</html> -->
+}
+
+if($_POST['Payload']) {
+    $payload  = $_POST['Payload'];
+    if($payload['ref'] ==  "refs/heads/GITHUB-WEBHOOK") {
+         pullRequest();
+    }
+}
+?>
