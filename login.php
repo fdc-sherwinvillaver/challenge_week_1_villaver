@@ -14,14 +14,11 @@
 <body class="fixed-sn white-skin">
     <main class="">
         <div class="div-40-center">
-            
             <!--Card-->
             <div class="card pad space">
-
                 <!--Bacground color-->
                 <div class="card-up indigo lighten-1">
                 </div>
-
                 <div class="card-body">
                     <div class="div-90-center">
                     <img src="public/images/logo.png" class="img-center">
