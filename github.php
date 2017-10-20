@@ -1,4 +1,6 @@
 <?php
+
+function autoPull(){
     $commands = array(
         'sudo git pull'
     );
@@ -9,4 +11,8 @@
         $output .= htmlentities(trim($tmp)) . "\n";
     }
   echo $output;
+}
+  
+  $post = $_POST['REQUEST'];
+  echo $post;
 ?>
